@@ -192,6 +192,18 @@
       "estado": "pendiente",
       "link_pago": "https://pay.qrmesa.demo/checkout/3361e8bc-ad21-4568-a213-7aa993d411fe?amount=1.72&mesa=5",
       "created_at": "2026-03-03T14:21:29.463Z"
+    },
+    {
+      "id": "8ea6c733-6e67-4f9c-85d5-c0d8fc4fb037",
+      "mesa_id": 8,
+      "cliente_nombre": "Cliente",
+      "productos_ids": "[10,11]",
+      "subtotal": 11.49,
+      "impuesto": 1.72,
+      "total": 13.21,
+      "estado": "pagado",
+      "link_pago": "https://pay.qrmesa.demo/checkout/8ea6c733-6e67-4f9c-85d5-c0d8fc4fb037?amount=13.21&mesa=8",
+      "created_at": "2026-03-03T15:06:55.426Z"
     }
   ],
   "comprobantes": [
@@ -224,6 +236,16 @@
       "tamaño": 718851,
       "estado": "verificado",
       "created_at": "2026-03-03T13:13:55.322Z"
+    },
+    {
+      "id": "f23b979d-4dc6-461b-a737-adb6bff2c8b5",
+      "pago_id": "8ea6c733-6e67-4f9c-85d5-c0d8fc4fb037",
+      "mesa_id": 8,
+      "filename": "comprobante_1772550423986.png",
+      "mimetype": "image/png",
+      "tamaño": 718851,
+      "estado": "verificado",
+      "created_at": "2026-03-03T15:07:04.007Z"
     }
   ]
 }
