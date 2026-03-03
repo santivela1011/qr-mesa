@@ -1,0 +1,217 @@
+{
+  "mesas": [
+    {
+      "id": 12,
+      "nombre": "Mesa 12",
+      "estado": "abierta",
+      "created_at": "2026-03-03T12:54:24.663Z"
+    },
+    {
+      "id": 5,
+      "nombre": "Mesa 5",
+      "estado": "abierta",
+      "created_at": "2026-03-03T12:54:24.679Z"
+    },
+    {
+      "id": 8,
+      "nombre": "Mesa 8",
+      "estado": "abierta",
+      "created_at": "2026-03-03T12:54:24.683Z"
+    },
+    {
+      "id": 15,
+      "nombre": "Mesa 15",
+      "estado": "abierta",
+      "created_at": "2026-03-03T12:54:24.688Z"
+    }
+  ],
+  "productos": [
+    {
+      "id": 1,
+      "mesa_id": 12,
+      "nombre": "Lomo BBQ",
+      "precio": 12.99,
+      "cantidad": 1
+    },
+    {
+      "id": 2,
+      "mesa_id": 12,
+      "nombre": "Coca Cola",
+      "precio": 2.5,
+      "cantidad": 1
+    },
+    {
+      "id": 3,
+      "mesa_id": 12,
+      "nombre": "Hamburguesa Clásica",
+      "precio": 10.99,
+      "cantidad": 1
+    },
+    {
+      "id": 4,
+      "mesa_id": 12,
+      "nombre": "Papas Fritas",
+      "precio": 3.99,
+      "cantidad": 1
+    },
+    {
+      "id": 5,
+      "mesa_id": 12,
+      "nombre": "Limonada Natural",
+      "precio": 2.75,
+      "cantidad": 1
+    },
+    {
+      "id": 6,
+      "mesa_id": 12,
+      "nombre": "Costillas BBQ",
+      "precio": 15.99,
+      "cantidad": 1
+    },
+    {
+      "id": 7,
+      "mesa_id": 5,
+      "nombre": "Pollo a la Plancha",
+      "precio": 9.99,
+      "cantidad": 1
+    },
+    {
+      "id": 8,
+      "mesa_id": 5,
+      "nombre": "Agua Sin Gas",
+      "precio": 1.5,
+      "cantidad": 1
+    },
+    {
+      "id": 9,
+      "mesa_id": 5,
+      "nombre": "Brownie con Helado",
+      "precio": 5.99,
+      "cantidad": 1
+    },
+    {
+      "id": 10,
+      "mesa_id": 8,
+      "nombre": "Pollo a la Plancha",
+      "precio": 9.99,
+      "cantidad": 1
+    },
+    {
+      "id": 11,
+      "mesa_id": 8,
+      "nombre": "Agua Sin Gas",
+      "precio": 1.5,
+      "cantidad": 1
+    },
+    {
+      "id": 12,
+      "mesa_id": 8,
+      "nombre": "Brownie con Helado",
+      "precio": 5.99,
+      "cantidad": 1
+    },
+    {
+      "id": 13,
+      "mesa_id": 15,
+      "nombre": "Pollo a la Plancha",
+      "precio": 9.99,
+      "cantidad": 1
+    },
+    {
+      "id": 14,
+      "mesa_id": 15,
+      "nombre": "Agua Sin Gas",
+      "precio": 1.5,
+      "cantidad": 1
+    },
+    {
+      "id": 15,
+      "mesa_id": 15,
+      "nombre": "Brownie con Helado",
+      "precio": 5.99,
+      "cantidad": 1
+    }
+  ],
+  "pagos": [
+    {
+      "id": "c8312cd2-a5d3-4cf5-9a5b-7946bc4a493b",
+      "mesa_id": 12,
+      "cliente_nombre": "Cliente",
+      "productos_ids": "[1,3]",
+      "subtotal": 23.98,
+      "impuesto": 3.6,
+      "total": 27.58,
+      "estado": "pagado",
+      "link_pago": "https://pay.qrmesa.demo/checkout/c8312cd2-a5d3-4cf5-9a5b-7946bc4a493b?amount=27.58&mesa=12",
+      "created_at": "2026-03-03T13:03:13.494Z"
+    },
+    {
+      "id": "7ea65bac-4e3f-44b8-a905-2c67690df204",
+      "mesa_id": 12,
+      "cliente_nombre": "joshua",
+      "productos_ids": "[6,5]",
+      "subtotal": 18.74,
+      "impuesto": 2.81,
+      "total": 21.55,
+      "estado": "pagado",
+      "link_pago": "https://pay.qrmesa.demo/checkout/7ea65bac-4e3f-44b8-a905-2c67690df204?amount=21.55&mesa=12",
+      "created_at": "2026-03-03T13:05:28.901Z"
+    },
+    {
+      "id": "53d23cbc-c0c1-4adf-bd9e-cf0d537fcea6",
+      "mesa_id": 12,
+      "cliente_nombre": "joshua",
+      "productos_ids": "[2,4]",
+      "subtotal": 6.49,
+      "impuesto": 0.97,
+      "total": 7.46,
+      "estado": "pagado",
+      "link_pago": "https://pay.qrmesa.demo/checkout/53d23cbc-c0c1-4adf-bd9e-cf0d537fcea6?amount=7.46&mesa=12",
+      "created_at": "2026-03-03T13:05:50.346Z"
+    },
+    {
+      "id": "c03cf2cc-4f68-4eae-86bd-bb6a9ac1be3a",
+      "mesa_id": 5,
+      "cliente_nombre": "Josu en vigo ;)",
+      "productos_ids": "[7]",
+      "subtotal": 9.99,
+      "impuesto": 1.5,
+      "total": 11.49,
+      "estado": "pagado",
+      "link_pago": "https://pay.qrmesa.demo/checkout/c03cf2cc-4f68-4eae-86bd-bb6a9ac1be3a?amount=11.49&mesa=5",
+      "created_at": "2026-03-03T13:13:37.523Z"
+    }
+  ],
+  "comprobantes": [
+    {
+      "id": "6c6cd299-3f5f-4df3-a368-b1b86b0ec278",
+      "pago_id": "7ea65bac-4e3f-44b8-a905-2c67690df204",
+      "mesa_id": 12,
+      "filename": "comprobante_1772543139575.png",
+      "mimetype": "image/png",
+      "tamaño": 718851,
+      "estado": "verificado",
+      "created_at": "2026-03-03T13:05:39.605Z"
+    },
+    {
+      "id": "c1ee7c5c-2667-41e4-a625-4c47bf6a74ab",
+      "pago_id": "53d23cbc-c0c1-4adf-bd9e-cf0d537fcea6",
+      "mesa_id": 12,
+      "filename": "comprobante_1772543155099.png",
+      "mimetype": "image/png",
+      "tamaño": 718851,
+      "estado": "verificado",
+      "created_at": "2026-03-03T13:05:55.108Z"
+    },
+    {
+      "id": "8a5862ec-2c7f-4ae6-9928-1117c45e2aff",
+      "pago_id": "c03cf2cc-4f68-4eae-86bd-bb6a9ac1be3a",
+      "mesa_id": 5,
+      "filename": "comprobante_1772543635293.png",
+      "mimetype": "image/png",
+      "tamaño": 718851,
+      "estado": "verificado",
+      "created_at": "2026-03-03T13:13:55.322Z"
+    }
+  ]
+}
