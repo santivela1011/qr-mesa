@@ -12,7 +12,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build"
   },
- "proxy": "https://qr-mesa-production.up.railway.app"
+  "proxy": "https://qr-mesa-production.up.railway.app",
   "browserslist": {
     "production": [
       ">0.2%",
