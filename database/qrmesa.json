@@ -180,6 +180,18 @@
       "estado": "pagado",
       "link_pago": "https://pay.qrmesa.demo/checkout/c03cf2cc-4f68-4eae-86bd-bb6a9ac1be3a?amount=11.49&mesa=5",
       "created_at": "2026-03-03T13:13:37.523Z"
+    },
+    {
+      "id": "3361e8bc-ad21-4568-a213-7aa993d411fe",
+      "mesa_id": 5,
+      "cliente_nombre": "Josu en vigo ;)",
+      "productos_ids": "[8]",
+      "subtotal": 1.5,
+      "impuesto": 0.22,
+      "total": 1.72,
+      "estado": "pendiente",
+      "link_pago": "https://pay.qrmesa.demo/checkout/3361e8bc-ad21-4568-a213-7aa993d411fe?amount=1.72&mesa=5",
+      "created_at": "2026-03-03T14:21:29.463Z"
     }
   ],
   "comprobantes": [
